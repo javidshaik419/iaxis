@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "Set NODE_ENV=prod&node server",
-    "dev": "Set NODE_ENV=dev&node server" 
- 
-     },
+    "dev": "Set NODE_ENV=dev&node server"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {

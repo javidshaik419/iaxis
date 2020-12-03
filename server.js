@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var env = require("./config/"+process.env.NODE_ENV)
+console.log("hiii",process.env)
 const port = env.port;
 app.get('/environment',(req,res)=>{
     res.send({
